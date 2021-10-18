@@ -1,4 +1,4 @@
-# aws-websocket-client
+# aws-websocket-server
 
 ### Info
 ```
