@@ -17,7 +17,8 @@ npm install aws-websocket-server
 - API WEBSOCKET Endpoint from AWS
 - AWS Websocket client wrapper to communicate with client using server wrapper.
   npm install aws-websocket-client
-  Github:- https://github.com/racop/aws-websocket-client
+
+Github:- https://github.com/racop/aws-websocket-client
 ```
 
 ### How to Use
