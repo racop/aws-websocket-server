@@ -1,0 +1,7 @@
+.env
+.tmp
+.idea
+.DS_Store
+package-lock.json
+
+node_modules

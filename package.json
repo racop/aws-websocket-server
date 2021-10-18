@@ -1,0 +1,27 @@
+{
+  "name": "aws-websocket-server",
+  "version": "0.1.0",
+  "description": "AWS WebSocket Wrapper to provide socket.io like interface to NodeJS serverless handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/racop/aws-websocket-server.git"
+  },
+  "keywords": [
+    "aws-websocket-server",
+    "aws-ws-server"
+  ],
+  "author": "Rahul Ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racop/aws-websocket-server/issues"
+  },
+  "homepage": "https://github.com/racop/aws-websocket-server#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1010.0",
+    "mongoose": "^6.0.11"
+  }
+}
