@@ -56,7 +56,7 @@ On disconnectHandler
 ```
 module.exports.disconnectHandler = (event, context, callback) => {
   context.callbackWaitsForEmptyEventLoop = false;
-  socket.deleteConnection(event.requestContext.connectionId) // DeRegister connection in socket
+  socket.removeConnection(event.requestContext.connectionId) // DeRegister connection in socket
     .then(() => {
       callback(null, successfullResponse)
     })
